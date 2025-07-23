@@ -52,7 +52,7 @@ jobs:
 
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+      url: tanvir-portfolio.github.io
 
     steps:
       - name: Deploy to GitHub Pages
