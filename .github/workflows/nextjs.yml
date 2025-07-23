@@ -1,4 +1,4 @@
-name: Deploy Next.js site to GitHub Pages
+name: Deploy Nuxt.js site to GitHub Pages
 
 on:
   push:
@@ -26,6 +26,7 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 20
+          cache: pnpm
 
       # Install pnpm
       - name: Setup pnpm
@@ -37,14 +38,14 @@ jobs:
       - name: Install dependencies
         run: pnpm install
 
-      # Build Next.js app
-      - name: Build Next.js
-        run: pnpm next build
+      # Build Nuxt app for static deployment
+      - name: Build Nuxt app
+        run: pnpm generate
 
       # Upload static site for GitHub Pages
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: out
+          path: .output
 
   deploy:
     runs-on: ubuntu-latest
