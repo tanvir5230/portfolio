@@ -22,41 +22,19 @@ jobs:
       # Checkout repo
       - uses: actions/checkout@v4
 
-      # Detect package manager (npm, yarn, pnpm)
-      - name: Detect package manager
-        id: detect-pm
-        run: |
-          if [ -f "pnpm-lock.yaml" ]; then
-            echo "manager=pnpm" >> $GITHUB_OUTPUT
-          elif [ -f "yarn.lock" ]; then
-            echo "manager=yarn" >> $GITHUB_OUTPUT
-          else
-            echo "manager=npm" >> $GITHUB_OUTPUT
-          fi
-
       # Setup Node.js
       - uses: actions/setup-node@v4
         with:
           node-version: 20
-          cache: ${{ steps.detect-pm.outputs.manager }}
+          cache: pnpm
 
       # Install dependencies
       - name: Install dependencies
-        run: |
-          case ${{ steps.detect-pm.outputs.manager }} in
-            pnpm) corepack enable && pnpm install ;;
-            yarn) yarn install ;;
-            npm) npm ci ;;
-          esac
+        run: pnpm install
 
       # Build Next.js app
       - name: Build Next.js
-        run: |
-          case ${{ steps.detect-pm.outputs.manager }} in
-            pnpm) pnpm next build ;;
-            yarn) yarn next build ;;
-            npm) npx next build ;;
-          esac
+        run: pnpm next build
 
       # Upload static site for GitHub Pages
       - uses: actions/upload-pages-artifact@v3
