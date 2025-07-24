@@ -9,11 +9,17 @@
       <!-- Sections Container -->
       <div class="section-container w-3/4 pl-8 pr-1 pb-32 overflow-hidden hover:overflow-y-auto">
         <Experience />
+        <br />
         <TechStack />
+        <br />
         <Education />
+        <br />
         <Projects />
+        <br />
         <About />
+        <br />
         <Contact />
+        <br />
       </div>
     </main>
   </UContainer>

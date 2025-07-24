@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { profileSection } from "~/static/data.json"
+import { profileSection } from "~/assets/data.json";
 </script>
 
 <template>

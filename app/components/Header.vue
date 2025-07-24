@@ -40,7 +40,7 @@ const items = ref<NavigationMenuItem[][]>([
 
 <template>
   <div class="flex items-center justify-end gap-12">
-    <UNavigationMenu orientation="horizontal" :items="items" class="border rounded-4xl w-fit px-8 py-2 text-4xl" />
+    <UNavigationMenu orientation="horizontal" :items="items" class="border-t border-b rounded-xl w-fit px-8 text-4xl" />
     <SocialMedia class="w-fit" />
   </div>
 </template>

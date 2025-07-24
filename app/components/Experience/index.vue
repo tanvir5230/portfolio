@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import type Experience from '~/types/experience.type';
 import SectionHeading from '~/components/shared/SectionHeading.vue';
-import { experienceSection } from '~/static/data.json';
+import { experienceSection } from '~/assets/data.json';
 
 const experienceData = ref<Experience[]>(experienceSection.items);
 </script>
