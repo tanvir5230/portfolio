@@ -67,5 +67,86 @@
         ]
       }
     ]
+  },
+  "techStackSection": {
+    "title": "Tools & Technologies",
+    "items": [
+      {
+        "domain": "Frontend",
+        "domainIcon": "i-lucide-airplay",
+        "technologies": [
+          {
+            "name": "Vue.js",
+            "icon": "/icons/vue.png"
+          },
+          {
+            "name": "React.js",
+            "icon": "/icons/react.png"
+          },
+          {
+            "name": "Nuxt.js",
+            "icon": "/icons/nuxt.png"
+          },
+          {
+            "name": "Tailwind CSS",
+            "icon": "/icons/tailwind.png"
+          }
+        ],
+        "description": "Technologies used for building modern, responsive user interfaces."
+      },
+      {
+        "domain": "Backend",
+        "domainIcon": "i-lucide-server",
+        "technologies": [
+          {
+            "name": "Node.js",
+            "icon": "/icons/node.png"
+          },
+          {
+            "name": "Express.js",
+            "icon": "/icons/express.png"
+          },
+          {
+            "name": "Prisma",
+            "icon": "/icons/prisma.png"
+          }
+        ],
+        "description": "Technologies used for building server-side logic and REST APIs."
+      },
+      {
+        "domain": "Database",
+        "domainIcon": "i-lucide-database",
+        "technologies": [
+          {
+            "name": "MongoDB",
+            "icon": "/icons/mongodb.png"
+          },
+          {
+            "name": "MySQL",
+            "icon": "/icons/mysql.png"
+          }
+        ],
+        "description": "Databases used to store and manage application data."
+      },
+      {
+        "domain": "Version Control & DevOps",
+        "domainIcon": "i-lucide-git-branch",
+        "technologies": [
+          {
+            "name": "Git",
+            "icon": "/icons/git.png"
+          },
+          {
+            "name": "GitHub",
+            "icon": "/icons/github.png"
+          },
+          {
+            "name": "Github CI/CD",
+            "icon": "/icons/ci-cd.png"
+          }
+        ],
+        "description": "Tools used for version control and deployment."
+      }
+    ]
   }
 }
