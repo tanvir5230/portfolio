@@ -1,13 +1,16 @@
 <script setup lang="ts">
-import SectionHeading from '../shared/SectionHeading.vue';
+import type Experience from '~/types/experience.type';
+import SectionHeading from '~/components/shared/SectionHeading.vue';
+import { experienceSection } from '~/static/data.json';
 
+const experienceData = ref<Experience[]>(experienceSection.items);
 </script>
 
 <template>
   <div>
-    <SectionHeading>Experience</SectionHeading>
-    <div v-for="(item, index) in [0, 1, 2]" :key="index" class="mb-8">
-      <ExperienceCard />
+    <SectionHeading>{{ experienceSection.title }}</SectionHeading>
+    <div v-for="(experienceItem, index) in experienceData" :key="index" class="mb-8">
+      <ExperienceCard :data="experienceItem" />
     </div>
   </div>
 </template>

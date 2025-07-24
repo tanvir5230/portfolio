@@ -1,0 +1,46 @@
+{
+  "experienceSection": {
+    "title": "Experience",
+    "items": [
+      {
+        "designation": "Software Engineer",
+        "company": {
+          "name": "Tech Company",
+          "url": "https://techcompany.com"
+        },
+        "duration": "Jan 2020 - Present",
+        "descriptionList": [
+          "Developed and maintained web applications using Vue and Nuxt.",
+          "Collaborated with cross-functional teams on product design.",
+          "Implemented CI/CD pipelines for deployment automation."
+        ]
+      },
+      {
+        "designation": "Frontend Developer",
+        "company": {
+          "name": "Another Tech Company",
+          "url": "https://anothertech.com"
+        },
+        "duration": "Jun 2018 - Dec 2019",
+        "descriptionList": [
+          "Built responsive user interfaces with React and Tailwind.",
+          "Improved frontend performance by optimizing bundle sizes.",
+          "Worked closely with UX designers to refine user experience."
+        ]
+      },
+      {
+        "designation": "Intern Developer",
+        "company": {
+          "name": "Startup Inc.",
+          "url": "https://startupinc.dev"
+        },
+        "duration": "Jan 2018 - May 2018",
+        "descriptionList": [
+          "Contributed to building a cross-platform mobile app.",
+          "Wrote unit tests and participated in code reviews.",
+          "Learned Agile development processes and tools."
+        ]
+      }
+    ]
+  }
+}
