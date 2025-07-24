@@ -7,7 +7,7 @@
         <ProfileCard />
       </div>
       <!-- Sections Container -->
-      <div class="section-container w-3/4 pl-8 pr-1 pb-32 h-screen overflow-hidden hover:overflow-y-auto">
+      <div class="section-container w-3/4 pl-8 pr-1 pb-32 h-screen overflow-y-auto custom-scrollbar">
         <Experience />
         <br />
         <TechStack />
