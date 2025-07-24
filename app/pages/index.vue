@@ -15,11 +15,12 @@
         <br />
         <Projects />
         <br />
-        <Education />
+        <!-- <Education /> -->
         <br />
-        <About />
+        <!-- <About /> -->
         <br />
         <Contact />
+        <br />
         <br />
       </div>
     </main>
