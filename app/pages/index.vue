@@ -1,7 +1,7 @@
 <template>
   <UContainer class="h-screen overflow-hidden flex flex-col">
     <Header class="h-16 mt-2" />
-    <main class=" flex-1 flex gap-4 mt-8 overflow-hidden">
+    <main class="flex-1 flex gap-4 mt-8 overflow-hidden">
       <!-- Profile Card -->
       <div class="w-1/4">
         <ProfileCard />

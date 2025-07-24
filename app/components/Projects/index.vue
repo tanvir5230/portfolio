@@ -3,7 +3,7 @@ import type Project from '~/types/project.type';
 import ProjectCard from './ProjectCard.vue'
 import { projectSection } from '~/assets/data.json';
 
-const projects: Project[] = projectSection.items;
+const projects = ref<Project[]>(projectSection.items);
 const title = projectSection.title;
 </script>
 

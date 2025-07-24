@@ -15,19 +15,14 @@ const items = ref<NavigationMenuItem[][]>([
       to: '#tech-stack'
     },
     {
-      label: 'Education',
-      icon: 'i-lucide-graduation-cap',
-      to: '#education'
-    },
-    {
       label: 'Projects',
       icon: 'i-lucide-folder-open',
       to: '#projects'
     },
     {
-      label: 'About',
-      icon: 'i-lucide-user',
-      to: '#about'
+      label: 'Education',
+      icon: 'i-lucide-graduation-cap',
+      to: '#education'
     },
     {
       label: 'Contact',
@@ -40,7 +35,12 @@ const items = ref<NavigationMenuItem[][]>([
 
 <template>
   <div class="flex items-center justify-end gap-12">
-    <UNavigationMenu orientation="horizontal" :items="items" class="border-t border-b rounded-xl w-fit px-8 text-4xl" />
-    <SocialMedia class="w-fit" />
+    <div class="w-1/4">
+      <Shared-Logo />
+    </div>
+    <div class="w-3/4 flex items-center justify-between">
+      <UNavigationMenu orientation="horizontal" :items="items" class="border-t border-b rounded-xl px-8 text-4xl" />
+      <SocialMedia class="w-fit" />
+    </div>
   </div>
 </template>
