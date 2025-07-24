@@ -12,9 +12,10 @@
         <br />
         <TechStack />
         <br />
-        <Education />
         <br />
         <Projects />
+        <br />
+        <Education />
         <br />
         <About />
         <br />

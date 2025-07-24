@@ -148,5 +148,44 @@
         "description": "Tools used for version control and deployment."
       }
     ]
+  },
+  "projectSection": {
+    "title": "Featured Projects",
+    "items": [
+      {
+        "title": "Ecommerce Platform",
+        "description": "A full-stack ecommerce app with admin dashboard, cart, and payment.",
+        "technologies": [
+          "Vue.js",
+          "Node.js",
+          "MongoDB",
+          "Tailwind CSS"
+        ],
+        "liveUrl": "https://ecommerce.example.com",
+        "codeUrl": "https://github.com/username/ecommerce"
+      },
+      {
+        "title": "Portfolio Website",
+        "description": "Personal developer portfolio with blog and project showcase.",
+        "technologies": [
+          "Nuxt 3",
+          "Tailwind CSS",
+          "Contentful"
+        ],
+        "liveUrl": "https://portfolio.example.com",
+        "codeUrl": "https://github.com/username/portfolio"
+      },
+      {
+        "title": "Chat App",
+        "description": "A real-time chat application using WebSocket.",
+        "technologies": [
+          "React",
+          "Express",
+          "Socket.io"
+        ],
+        "liveUrl": "https://chatapp.example.com",
+        "codeUrl": "https://github.com/username/chat-app"
+      }
+    ]
   }
 }
