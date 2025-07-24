@@ -5,9 +5,9 @@ const { data } = defineProps<{ data: Experience }>()
 </script>
 
 <template>
-  <UCard>
+  <UCard variant="subtle" :ui="{ body: 'p-2 sm:px-6 sm:pt-2' }" class="rounded-2xl">
     <template #header>
-      <h2 class="text-3xl font-bold text-left mb-4">{{ data.designation }}</h2>
+      <h2 class="text-2xl font-bold text-left mb-4">{{ data.designation }}</h2>
       <div class="flex items-center gap-4">
         <ULink :to="data.company.url" target="_blank" class="text-left text-secondary hover:underline">
           {{ data.company.name }}

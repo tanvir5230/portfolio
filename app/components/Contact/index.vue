@@ -23,7 +23,7 @@
         <!-- Submit Button -->
         <div class="pt-2">
           <UButton :loading="isSubmitting" type="submit" color="primary"
-            class="w-full justify-center text-base font-semibold rounded-xl py-3 cursor-pointer">
+            class="w-full justify-center text-base font-semibold rounded-full py-3 cursor-pointer bg-gradient-to-r from-secondary to-primary hover:from-primary hover:to-secondary transition-colors duration-500 text-white">
             <UIcon name="i-lucide-mail" /> Send Message
           </UButton>
         </div>

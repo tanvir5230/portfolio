@@ -5,8 +5,10 @@ import { profileSection } from "~/assets/data.json";
 <template>
   <UCard variant="subtle" :ui="{ root: 'rounded-3xl py-4', }">
     <template #header>
-      <img :src="profileSection.image.src" :alt="profileSection.image.alt"
-        class="rounded-full w-32 h-32 mb-4 mx-auto border-4 border-primary" />
+      <div class="relative w-32 h-32 mb-4 mx-auto rounded-full bg-gradient-to-tr from-primary to-secondary p-[3px]">
+        <img :src="profileSection.image.src" :alt="profileSection.image.alt"
+          class="rounded-full w-full h-full object-cover bg-white dark:bg-neutral-950" />
+      </div>
     </template>
 
     <h2 class="text-2xl font-bold text-center mb-2">{{ profileSection.name }}</h2>
@@ -15,7 +17,8 @@ import { profileSection } from "~/assets/data.json";
 
     <template #footer>
       <div class="text-center">
-        <UButton to="#contact" variant="solid" type="button" size="xl" class="rounded-4xl px-4">
+        <UButton to="#contact" variant="solid" type="button" size="xl"
+          class="rounded-4xl px-8 bg-gradient-to-r from-secondary via-primary to-primary text-white font-extrabold hover:from-primary hover:to-secondary transition-colors duration-500">
           Hire Me
         </UButton>
       </div>

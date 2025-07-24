@@ -1,20 +1,6 @@
 <template>
-  <h2 class="text-3xl font-bold text-center mb-8">
+  <h2
+    class="relative text-3xl font-bold text-left mb-8 w-fit after:block after:mt-2 after:w-1/2 after:border-b-4 after:border-primary after:rounded-xl">
     <slot></slot>
   </h2>
 </template>
-
-<style scoped>
-h2 {
-  width: fit-content;
-}
-
-h2::after {
-  content: '';
-  display: block;
-  margin: 8px 0px;
-  width: 50%;
-  border-bottom: 4px solid #e5e7eb;
-  border-radius: 12px;
-}
-</style>
