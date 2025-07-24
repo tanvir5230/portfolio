@@ -15,7 +15,7 @@ import { profileSection } from "~/assets/data.json";
 
     <template #footer>
       <div class="text-center">
-        <UButton to="/test" variant="solid" type="button" size="xl" class="rounded-4xl px-4">
+        <UButton to="#contact" variant="solid" type="button" size="xl" class="rounded-4xl px-4">
           Hire Me
         </UButton>
       </div>
