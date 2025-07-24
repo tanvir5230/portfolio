@@ -1,3 +1,8 @@
+<script setup lang="ts">
+
+</script>
+
+
 <template>
   <UContainer class="h-screen overflow-hidden flex flex-col">
     <Header class="h-16 mt-2" />

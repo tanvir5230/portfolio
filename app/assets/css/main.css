@@ -5,6 +5,10 @@
   --font-sans: "Plus Jakarta Sans", sans-serif;
 }
 
+* {
+  scroll-behavior: smooth;
+}
+
 /* app.css or global.css */
 .custom-scrollbar::-webkit-scrollbar {
   width: 6px;

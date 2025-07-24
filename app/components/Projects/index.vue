@@ -8,9 +8,10 @@ const title = projectSection.title;
 </script>
 
 <template>
-  <Shared-SectionHeading>{{ title }}</Shared-SectionHeading>
-
-  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-    <ProjectCard v-for="(project, index) in projects" :key="index" :data="project" />
+  <div id="projects">
+    <Shared-SectionHeading>{{ title }}</Shared-SectionHeading>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <ProjectCard v-for="(project, index) in projects" :key="index" :data="project" />
+    </div>
   </div>
 </template>

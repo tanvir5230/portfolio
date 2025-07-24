@@ -1,5 +1,5 @@
 <template>
-  <div class="space-y-8">
+  <div class="space-y-8" id="contact">
     <SharedSectionHeading>Contact Me</SharedSectionHeading>
 
     <UCard class="p-6 shadow-xl rounded-2xl">

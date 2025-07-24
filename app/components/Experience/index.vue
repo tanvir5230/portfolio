@@ -7,7 +7,7 @@ const experienceData = ref<Experience[]>(experienceSection.items);
 </script>
 
 <template>
-  <div>
+  <div id="experience">
     <SectionHeading>{{ experienceSection.title }}</SectionHeading>
     <div v-for="(experienceItem, index) in experienceData" :key="index" class="mb-8 border-l-2 border-primary pl-6 relative
          before:content-[''] before:absolute before:w-4 before:h-4 before:rounded-full
