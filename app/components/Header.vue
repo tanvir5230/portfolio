@@ -16,7 +16,7 @@ const items = ref<NavigationMenuItem[][]>([[]])
 const updateActiveItem = () => {
   const currentHash = route.hash || '#experience'
   items.value = [
-    //ts-ignore
+    //@ts-ignore
     rawItems.map(item => ({
       ...item,
       active: item.to === currentHash
