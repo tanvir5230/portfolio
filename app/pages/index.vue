@@ -1,7 +1,7 @@
 <template>
-  <UContainer class="py-8 h-screen overflow-hidden">
-    <Header />
-    <main class="flex gap-4 mt-8 overflow-hidden">
+  <UContainer class="h-screen overflow-hidden flex flex-col">
+    <Header class="h-16 mt-2" />
+    <main class=" flex-1 flex gap-4 mt-8 overflow-hidden">
       <!-- Profile Card -->
       <div class="w-1/4">
         <ProfileCard />
@@ -20,9 +20,9 @@
         <br />
         <Contact />
         <br />
-        <Footer />
       </div>
     </main>
+    <Footer class="h-12" />
   </UContainer>
 </template>
 

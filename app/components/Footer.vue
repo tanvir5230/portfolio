@@ -6,7 +6,8 @@ const year = new Date().getFullYear();
 <template>
   <footer>
     <div class="footer-content text-center py-4">
-      <p class="text-sm text-white"><span>&copy;</span> {{ year }} {{ profileSection.name }}. All rights reserved.</p>
+      <p class="text-sm text-slate-400"><span>&copy;</span> {{ year }} {{ profileSection.name }}. All rights reserved.
+      </p>
     </div>
   </footer>
 </template>
