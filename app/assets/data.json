@@ -3,9 +3,9 @@
     "title": "Profile",
     "name": "Tanvir Ibn Touhid",
     "role": "Software Engineer",
-    "location": "Dhaka, Bangladesh",
+    "location": "Cumilla, Bangladesh",
     "email": "tanvirbintouhid5230@gmail.com",
-    "phone": "+880 123 456 7890",
+    "phone": "+8801521407975",
     "socialLinks": [
       {
         "platform": "GitHub",
@@ -20,7 +20,7 @@
     ],
     "description": "Tanvir Ibn Touhid is a Software Engineer with a passion for building scalable web applications. He has experience in frontend development using modern frameworks and libraries.",
     "image": {
-      "src": "https://media.licdn.com/dms/image/v2/D5603AQHl__kDEHGlbw/profile-displayphoto-crop_800_800/B56Zg18owNHcAI-/0/1753251746429?e=1756339200&v=beta&t=u-eY0r9umxi54tUDEyhZEgdccIvNlCjeW41J7haeOyM",
+      "src": "/images/tanvir.jpeg",
       "alt": "Tanvir Ibn Touhid"
     }
   },
