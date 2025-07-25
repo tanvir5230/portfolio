@@ -1,0 +1,227 @@
+{
+  "profileSection": {
+    "title": "Profile",
+    "name": "Tanvir Ibn Touhid",
+    "role": "Software Engineer",
+    "location": "Dhaka, Bangladesh",
+    "email": "tanvirbintouhid5230@gmail.com",
+    "phone": "+880 123 456 7890",
+    "socialLinks": [
+      {
+        "platform": "GitHub",
+        "url": "https://www.github.com/tanvir5230",
+        "icon": "i-lucide-github"
+      },
+      {
+        "platform": "LinkedIn",
+        "url": "https://www.linkedin.com/in/tanvir-ibn-touhid/",
+        "icon": "i-lucide-linkedin"
+      }
+    ],
+    "description": "Tanvir Ibn Touhid is a Software Engineer with a passion for building scalable web applications. He has experience in frontend development using modern frameworks and libraries.",
+    "image": {
+      "src": "https://media.licdn.com/dms/image/v2/D5603AQHl__kDEHGlbw/profile-displayphoto-crop_800_800/B56Zg18owNHcAI-/0/1753251746429?e=1756339200&v=beta&t=u-eY0r9umxi54tUDEyhZEgdccIvNlCjeW41J7haeOyM",
+      "alt": "Tanvir Ibn Touhid"
+    }
+  },
+  "experienceSection": {
+    "title": "Experience",
+    "items": [
+      {
+        "designation": "Junior Software Engineer",
+        "company": {
+          "name": "Indetechs Software Ltd.",
+          "url": "https://indetechs.com"
+        },
+        "duration": "June 2024 – Present",
+        "descriptionList": [
+          "Built internal tools using Nuxt.js on the frontend and Express.js on the backend within a microservice architecture.",
+          "Integrated REST APIs and handled complex UI logic using Vue and JavaScript.",
+          "Customized and developed add-ons in Odoo using Python and JavaScript.",
+          "Refactored legacy codebases (EJS, Express.js, MySQL, jQuery) to improve maintainability by applying DRY and SOLID principles.",
+          "Collaborated with cross-functional remote teams to meet delivery deadlines."
+        ]
+      },
+      {
+        "designation": "Junior Software Engineer",
+        "company": {
+          "name": "Diligite",
+          "url": "https://diligite.com"
+        },
+        "duration": "Jan 2023 – May 2024",
+        "descriptionList": [
+          "Developed a full-featured HRM system using TypeScript, React, Express.js, Prisma, and Tailwind CSS.",
+          "Built and managed deployment automation pipelines using GitHub CI/CD, Docker, and Nginx.",
+          "Configured load balancing (Round Robin), proxy pass, and SSL with Nginx.",
+          "Achieved 100% cost savings by replacing a $25/month invoice system with a custom in-house solution.",
+          "Led frontend development for property management software and independently managed full development life cycles."
+        ]
+      },
+      {
+        "designation": "Frontend Engineer",
+        "company": {
+          "name": "AlphaCue Technologies",
+          "url": "https://alphacuetech.com"
+        },
+        "duration": "Feb 2022 – Dec 2022",
+        "descriptionList": [
+          "Worked on a photo editing platform with frame presets, admin approval flow, and integrated payment system.",
+          "Delivered precise UX-conformant interfaces using Vue.js based on client specifications.",
+          "Gained hands-on experience working under senior mentorship and collaborating on frontend infrastructure and best practices."
+        ]
+      }
+    ]
+  },
+  "techStackSection": {
+    "title": "Tools & Technologies",
+    "items": [
+      {
+        "domain": "Frontend & Languages",
+        "domainIcon": "i-lucide-airplay",
+        "technologies": [
+          {
+            "name": "Vue.js",
+            "icon": "/icons/vue.png"
+          },
+          {
+            "name": "Nuxt.js",
+            "icon": "/icons/nuxt.png"
+          },
+          {
+            "name": "React.js",
+            "icon": "/icons/react.png"
+          },
+          {
+            "name": "React Native",
+            "icon": "/icons/react-native.png"
+          },
+          {
+            "name": "Tailwind CSS",
+            "icon": "/icons/tailwind.png"
+          },
+          {
+            "name": "JavaScript",
+            "icon": "/icons/javascript.png"
+          },
+          {
+            "name": "TypeScript",
+            "icon": "/icons/typescript.png"
+          }
+        ],
+        "description": "Modern libraries, UI frameworks, and state management tools used to build responsive, maintainable web and mobile interfaces."
+      },
+      {
+        "domain": "Backend & Databases",
+        "domainIcon": "i-lucide-server",
+        "technologies": [
+          {
+            "name": "Node.js",
+            "icon": "/icons/node.png"
+          },
+          {
+            "name": "Express.js",
+            "icon": "/icons/express.png"
+          },
+          {
+            "name": "Prisma",
+            "icon": "/icons/prisma.png"
+          },
+          {
+            "name": "Odoo",
+            "icon": "/icons/odoo.png"
+          },
+          {
+            "name": "MySQL",
+            "icon": "/icons/mysql.png"
+          },
+          {
+            "name": "MongoDB",
+            "icon": "/icons/mongodb.png"
+          }
+        ],
+        "description": "Technologies used for server-side development, API creation, and database management with both relational and NoSQL systems."
+      },
+      {
+        "domain": "DevOps & Infrastructure",
+        "domainIcon": "i-lucide-settings",
+        "technologies": [
+          {
+            "name": "Docker",
+            "icon": "/icons/docker.png"
+          },
+          {
+            "name": "Nginx",
+            "icon": "/icons/nginx.png"
+          },
+          {
+            "name": "Linux",
+            "icon": "/icons/linux.png"
+          },
+          {
+            "name": "System Design",
+            "icon": "/icons/system-design.png"
+          }
+        ],
+        "description": "Tools and practices for deployment automation, web servers, operating systems, and architectural design. Includes experience with ML experimentation."
+      },
+      {
+        "domain": "Version Control & CI/CD",
+        "domainIcon": "i-lucide-git-branch",
+        "technologies": [
+          {
+            "name": "Git",
+            "icon": "/icons/git.png"
+          },
+          {
+            "name": "GitHub",
+            "icon": "/icons/github.png"
+          },
+          {
+            "name": "GitHub CI/CD",
+            "icon": "/icons/ci-cd.png"
+          }
+        ],
+        "description": "Tools for version control, collaborative development, and automated deployment pipelines using Git and GitHub Actions."
+      }
+    ]
+  },
+  "projectSection": {
+    "title": "Featured Projects",
+    "items": [
+      {
+        "title": "Ecommerce Platform",
+        "description": "A full-stack ecommerce app with admin dashboard, cart, and payment.",
+        "technologies": [
+          "Vue.js",
+          "Node.js",
+          "MongoDB",
+          "Tailwind CSS"
+        ],
+        "liveUrl": "https://ecommerce.example.com",
+        "codeUrl": "https://github.com/username/ecommerce"
+      },
+      {
+        "title": "Portfolio Website",
+        "description": "Personal developer portfolio with blog and project showcase.",
+        "technologies": [
+          "Nuxt 3",
+          "Tailwind CSS",
+          "Contentful"
+        ],
+        "liveUrl": "https://portfolio.example.com",
+        "codeUrl": "https://github.com/username/portfolio"
+      },
+      {
+        "title": "Chat App",
+        "description": "A real-time chat application using WebSocket.",
+        "technologies": [
+          "React",
+          "Express",
+          "Socket.io"
+        ],
+        "liveUrl": "https://chatapp.example.com",
+        "codeUrl": "https://github.com/username/chat-app"
+      }
+    ]
+  }
+}
