@@ -21,13 +21,24 @@ const { data } = defineProps<{ data: Project }>()
     </div>
 
     <!-- Buttons -->
-    <div class="flex items-center justify-center gap-2 mt-auto h-[3rem]">
-      <UButton :to="data.liveUrl" color="warning" class="rounded-3xl">
-        View Project
+    <div v-if="data.liveUrl || data.codeUrl" class="flex items-center justify-center gap-2 mt-auto h-[3rem]">
+      <UButton v-if="data.liveUrl" :to="data.liveUrl" target="_blank" color="warning" class="rounded-3xl">
+        View Live
       </UButton>
-      <span class="text-white">|</span>
-      <UButton :to="data.codeUrl" color="neutral" class="rounded-3xl">
+      <span class="text-white" v-if="data.liveUrl && data.codeUrl">|</span>
+      <UButton v-if="data.codeUrl" :to="data.codeUrl" target="_blank" color="neutral" class="rounded-3xl">
         View Code
+      </UButton>
+    </div>
+    <div v-if="data.frontendCodeUrl || data.backendCodeUrl"
+      class="flex items-center justify-center gap-2 mt-auto h-[3rem]">
+      <UButton v-if="data.backendCodeUrl" :to="data.backendCodeUrl" target="_blank" color="warning" class="rounded-3xl">
+        BE Code
+      </UButton>
+      <span class="text-white" v-if="data.frontendCodeUrl && data.backendCodeUrl">|</span>
+      <UButton v-if="data.frontendCodeUrl" :to="data.frontendCodeUrl" target="_blank" color="neutral"
+        class="rounded-3xl">
+        FE Code
       </UButton>
     </div>
   </div>
