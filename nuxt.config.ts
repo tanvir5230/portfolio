@@ -3,6 +3,7 @@ export default defineNuxtConfig({
   compatibilityDate: "2025-07-15",
   devtools: { enabled: true },
   modules: ["@nuxt/ui"],
+  plugins: ["~/plugins/aos.client.ts"],
   css: ["~/assets/css/main.css"],
   app: {
     head: {
@@ -21,6 +22,12 @@ export default defineNuxtConfig({
   runtimeConfig: {
     public: {
       FORMSPREE_ID: "",
+      // aos configuration
+      aos: {
+        duration: 700,
+        easing: "ease-out-cubic",
+        delay: 0,
+      },
     },
   },
 });
