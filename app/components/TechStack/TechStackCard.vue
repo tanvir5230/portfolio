@@ -13,8 +13,9 @@ const { data } = defineProps<{ data: TechStack }>();
       <h3 class="text-xl text-center font-semibold">{{ data.domain }}</h3>
     </div>
     <ul class="technologies-list flex flex-wrap justify-center gap-6 -translate-y-8">
-      <li v-for="tech in data.technologies" :key="tech.name" class="technology-item flex flex-col items-center gap-2">
-        <img :src="tech.icon" :alt="tech.name" class="tech-icon" width="48" height="48" />
+      <li v-for="tech in data.technologies" :key="tech.name"
+        class="technology-item flex flex-col items-center justify-center gap-2">
+        <img :src="tech.icon" :alt="tech.name" class="tech-icon" width="48" height="48" style="height: 48px;" />
         {{ tech.name }}
       </li>
     </ul>

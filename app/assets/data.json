@@ -28,42 +28,46 @@
     "title": "Experience",
     "items": [
       {
-        "designation": "Software Engineer",
+        "designation": "Junior Software Engineer",
         "company": {
-          "name": "Tech Company",
-          "url": "https://techcompany.com"
+          "name": "Indetechs Software Ltd.",
+          "url": "https://indetechs.com"
         },
-        "duration": "Jan 2020 - Present",
+        "duration": "June 2024 – Present",
         "descriptionList": [
-          "Developed and maintained web applications using Vue and Nuxt.",
-          "Collaborated with cross-functional teams on product design.",
-          "Implemented CI/CD pipelines for deployment automation."
+          "Built internal tools using Nuxt.js on the frontend and Express.js on the backend within a microservice architecture.",
+          "Integrated REST APIs and handled complex UI logic using Vue and JavaScript.",
+          "Customized and developed add-ons in Odoo using Python and JavaScript.",
+          "Refactored legacy codebases (EJS, Express.js, MySQL, jQuery) to improve maintainability by applying DRY and SOLID principles.",
+          "Collaborated with cross-functional remote teams to meet delivery deadlines."
         ]
       },
       {
-        "designation": "Frontend Developer",
+        "designation": "Junior Software Engineer",
         "company": {
-          "name": "Another Tech Company",
-          "url": "https://anothertech.com"
+          "name": "Diligite",
+          "url": "https://diligite.com"
         },
-        "duration": "Jun 2018 - Dec 2019",
+        "duration": "Jan 2023 – May 2024",
         "descriptionList": [
-          "Built responsive user interfaces with React and Tailwind.",
-          "Improved frontend performance by optimizing bundle sizes.",
-          "Worked closely with UX designers to refine user experience."
+          "Developed a full-featured HRM system using TypeScript, React, Express.js, Prisma, and Tailwind CSS.",
+          "Built and managed deployment automation pipelines using GitHub CI/CD, Docker, and Nginx.",
+          "Configured load balancing (Round Robin), proxy pass, and SSL with Nginx.",
+          "Achieved 100% cost savings by replacing a $25/month invoice system with a custom in-house solution.",
+          "Led frontend development for property management software and independently managed full development life cycles."
         ]
       },
       {
-        "designation": "Intern Developer",
+        "designation": "Frontend Engineer",
         "company": {
-          "name": "Startup Inc.",
-          "url": "https://startupinc.dev"
+          "name": "AlphaCue Technologies",
+          "url": "https://alphacuetech.com"
         },
-        "duration": "Jan 2018 - May 2018",
+        "duration": "Feb 2022 – Dec 2022",
         "descriptionList": [
-          "Contributed to building a cross-platform mobile app.",
-          "Wrote unit tests and participated in code reviews.",
-          "Learned Agile development processes and tools."
+          "Worked on a photo editing platform with frame presets, admin approval flow, and integrated payment system.",
+          "Delivered precise UX-conformant interfaces using Vue.js based on client specifications.",
+          "Gained hands-on experience working under senior mentorship and collaborating on frontend infrastructure and best practices."
         ]
       }
     ]
@@ -72,7 +76,7 @@
     "title": "Tools & Technologies",
     "items": [
       {
-        "domain": "Frontend",
+        "domain": "Frontend & Languages",
         "domainIcon": "i-lucide-airplay",
         "technologies": [
           {
@@ -80,22 +84,34 @@
             "icon": "/icons/vue.png"
           },
           {
-            "name": "React.js",
-            "icon": "/icons/react.png"
-          },
-          {
             "name": "Nuxt.js",
             "icon": "/icons/nuxt.png"
           },
           {
+            "name": "React.js",
+            "icon": "/icons/react.png"
+          },
+          {
+            "name": "React Native",
+            "icon": "/icons/react-native.png"
+          },
+          {
             "name": "Tailwind CSS",
             "icon": "/icons/tailwind.png"
+          },
+          {
+            "name": "JavaScript",
+            "icon": "/icons/javascript.png"
+          },
+          {
+            "name": "TypeScript",
+            "icon": "/icons/typescript.png"
           }
         ],
-        "description": "Technologies used for building modern, responsive user interfaces."
+        "description": "Modern libraries, UI frameworks, and state management tools used to build responsive, maintainable web and mobile interfaces."
       },
       {
-        "domain": "Backend",
+        "domain": "Backend & Databases",
         "domainIcon": "i-lucide-server",
         "technologies": [
           {
@@ -109,27 +125,47 @@
           {
             "name": "Prisma",
             "icon": "/icons/prisma.png"
-          }
-        ],
-        "description": "Technologies used for building server-side logic and REST APIs."
-      },
-      {
-        "domain": "Database",
-        "domainIcon": "i-lucide-database",
-        "technologies": [
+          },
           {
-            "name": "MongoDB",
-            "icon": "/icons/mongodb.png"
+            "name": "Odoo",
+            "icon": "/icons/odoo.png"
           },
           {
             "name": "MySQL",
             "icon": "/icons/mysql.png"
+          },
+          {
+            "name": "MongoDB",
+            "icon": "/icons/mongodb.png"
           }
         ],
-        "description": "Databases used to store and manage application data."
+        "description": "Technologies used for server-side development, API creation, and database management with both relational and NoSQL systems."
       },
       {
-        "domain": "Version Control & DevOps",
+        "domain": "DevOps & Infrastructure",
+        "domainIcon": "i-lucide-settings",
+        "technologies": [
+          {
+            "name": "Docker",
+            "icon": "/icons/docker.png"
+          },
+          {
+            "name": "Nginx",
+            "icon": "/icons/nginx.png"
+          },
+          {
+            "name": "Linux",
+            "icon": "/icons/linux.png"
+          },
+          {
+            "name": "System Design",
+            "icon": "/icons/system-design.png"
+          }
+        ],
+        "description": "Tools and practices for deployment automation, web servers, operating systems, and architectural design. Includes experience with ML experimentation."
+      },
+      {
+        "domain": "Version Control & CI/CD",
         "domainIcon": "i-lucide-git-branch",
         "technologies": [
           {
@@ -141,11 +177,11 @@
             "icon": "/icons/github.png"
           },
           {
-            "name": "Github CI/CD",
+            "name": "GitHub CI/CD",
             "icon": "/icons/ci-cd.png"
           }
         ],
-        "description": "Tools used for version control and deployment."
+        "description": "Tools for version control, collaborative development, and automated deployment pipelines using Git and GitHub Actions."
       }
     ]
   },
