@@ -5,7 +5,8 @@ const { data } = defineProps<{ data: Experience }>()
 </script>
 
 <template>
-  <UCard variant="subtle" :ui="{ body: 'p-2 sm:px-6 sm:pt-2' }" class="rounded-2xl">
+  <UCard variant="subtle" :ui="{ body: 'p-2 sm:px-6 sm:pt-2' }"
+    class="rounded-2xl transition-transform duration-700 hover:border-2 hover:border-primary hover:-translate-y-2">
     <template #header>
       <h2 class="text-2xl font-bold text-left mb-4">{{ data.designation }}</h2>
       <div class="flex items-center gap-4">
