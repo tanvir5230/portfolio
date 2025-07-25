@@ -11,7 +11,7 @@ const techStackData = ref<TechStack[]>(techStackSection.items);
     <Shared-SectionHeading>{{ techStackSection.title }}</Shared-SectionHeading>
     <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
       <TechStackCard v-for="(tech, index) in techStackData" :key="index" :data="tech"
-        :data-aos="index % 2 == 0 ? 'fade-right' : 'fade-left'" />
+        :data-aos="index % 2 == 0 ? 'zoom-in-up' : 'zoom-in-down'" />
     </div>
   </div>
 </template>
