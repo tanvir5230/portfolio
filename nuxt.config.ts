@@ -26,7 +26,7 @@ export default defineNuxtConfig({
       aos: {
         duration: 700,
         easing: "ease-out-cubic",
-        delay: 50,
+        delay: 0,
       },
     },
   },

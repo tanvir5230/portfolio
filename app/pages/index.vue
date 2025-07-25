@@ -8,9 +8,9 @@
     <Header class="h-16 mt-2" />
     <main class="flex-1 flex gap-4 mt-8">
       <!-- Profile Card -->
-      <div class="w-1/4">
+      <aside class="w-1/4">
         <ProfileCard />
-      </div>
+      </aside>
       <!-- Sections Container -->
       <div class="section-container w-3/4 pl-8 pr-1 pb-8">
         <Experience />
