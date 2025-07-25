@@ -32,7 +32,7 @@ watch(() => route.hash, updateActiveItem)
 </script>
 
 <template>
-  <div class="flex items-center justify-end gap-12">
+  <header class="flex items-center justify-end gap-12">
     <div class="w-1/4">
       <Shared-Logo />
     </div>
@@ -40,5 +40,5 @@ watch(() => route.hash, updateActiveItem)
       <UNavigationMenu orientation="horizontal" :items="items" class="border-t border-b rounded-xl px-8 text-4xl" />
       <SocialMedia class="w-fit" />
     </div>
-  </div>
+  </header>
 </template>
