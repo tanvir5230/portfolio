@@ -4,6 +4,7 @@ export default interface TechStack {
   technologies: {
     name: string;
     icon: string;
+    expertise: number; // Expertise level from 0 to 100
   }[];
   description: string;
 }
