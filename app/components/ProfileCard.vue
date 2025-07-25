@@ -3,7 +3,7 @@ import { profileSection } from "~/assets/data.json";
 </script>
 
 <template>
-  <UCard variant="subtle" :ui="{ root: 'rounded-3xl py-4', }">
+  <UCard variant="subtle" :ui="{ root: 'rounded-3xl py-4', }" class="lg:sticky top-8">
     <template #header>
       <div class="relative w-32 h-32 mb-4 mx-auto rounded-full bg-gradient-to-tr from-primary to-secondary p-[3px]">
         <img :src="profileSection.image.src" :alt="profileSection.image.alt"
