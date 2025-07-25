@@ -2,7 +2,7 @@
   <div class="space-y-8" id="contact">
     <SharedSectionHeading>Contact Me</SharedSectionHeading>
 
-    <UCard class="p-6 shadow-xl rounded-2xl">
+    <UCard class="p-6 shadow-xl rounded-2xl" data-aos="fade-up">
       <UForm :state="form" @submit="handleSubmit" class="space-y-5">
         <!-- Name -->
         <UFormField label="Your Name" name="name" required>

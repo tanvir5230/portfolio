@@ -4,15 +4,15 @@
 
 
 <template>
-  <UContainer class="h-screen overflow-hidden flex flex-col">
+  <UContainer class="h-screen custom-scrollbar flex flex-col">
     <Header class="h-16 mt-2" />
-    <main class="flex-1 flex gap-4 mt-8 overflow-hidden">
+    <main class="flex-1 lg:flex lg:gap-4 lg:mt-8 mt-2">
       <!-- Profile Card -->
-      <div class="w-1/4">
+      <aside class="w-full lg:w-1/4">
         <ProfileCard />
-      </div>
+      </aside>
       <!-- Sections Container -->
-      <div class="section-container w-3/4 pl-8 pr-1 pb-32 h-screen overflow-y-auto custom-scrollbar">
+      <div class="section-container w-full mt-8 lg:mt-0 lg:w-3/4 lg:pl-8 lg:pr-1 pb-8">
         <Experience />
         <br />
         <TechStack />
@@ -25,8 +25,6 @@
         <!-- <About /> -->
         <br />
         <Contact />
-        <br />
-        <br />
       </div>
     </main>
     <Footer class="h-12" />

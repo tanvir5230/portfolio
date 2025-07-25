@@ -32,13 +32,20 @@ watch(() => route.hash, updateActiveItem)
 </script>
 
 <template>
-  <div class="flex items-center justify-end gap-12">
-    <div class="w-1/4">
+  <header class="flex items-center justify-between p-2 lg:gap-12 lg:px-8">
+    <!-- Logo Section -->
+    <div class="w-fit lg:w-1/4">
       <Shared-Logo />
     </div>
-    <div class="w-3/4 flex items-center justify-between">
-      <UNavigationMenu orientation="horizontal" :items="items" class="border-t border-b rounded-xl px-8 text-4xl" />
-      <SocialMedia class="w-fit" />
+
+    <!-- Navigation & Social (Desktop), Social only (Mobile) -->
+    <div class="flex items-center justify-end w-fit lg:w-3/4 lg:justify-between lg:text-4xl">
+      <!-- Navigation (only visible on large screens) -->
+      <UNavigationMenu orientation="horizontal" :items="items"
+        class="hidden lg:flex border-t border-b rounded-xl px-8 text-4xl" />
+
+      <!-- Social Media (always visible, responsive spacing) -->
+      <SocialMedia class="ml-4 w-fit" />
     </div>
-  </div>
+  </header>
 </template>
